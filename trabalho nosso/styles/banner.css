@@ -1,0 +1,15 @@
+.banner{/*define estilos para a classe banner*/
+    background: var(--azul-degrade); /*define a cor de fundo da classee*/
+    color: var(--branco);/*define a cor do texto da classe*/
+    text-align: center; /*define o alinahamento do texto da classe*/
+    padding: 2.5em 2em;/*define o espaçamento interno da classe*/
+
+}
+.banner__titulo{/*defines os estilos da classe banner__titulo*/
+    font-size: 18px;/*define o temanho da fonte*/
+    font-weight: 700;/*define o destaque da fonte*/
+
+}.banner__texto{/*define os estilos da classe banner_texto*/
+    font-weight: 500;/*define o destaque da fonte*/
+    margin: 1em 0;/*define a margem do texto*/
+}

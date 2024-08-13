@@ -1,0 +1,72 @@
+.carrossel__titulo{ /*dfine os estilos da classe carrosel__titulo*/
+    color: var(--laranja);/*define a cor do texto*/
+    background-color: var(--branco);/*define a cor do fundo*/
+    text-align: center;/*define o alinhamento do texto*/
+    text-transform: uppercase;/*converte o texto para letras maiusculas*/
+    font-size: 18px;/*define o tamanho do texto*/
+    font-weight: 700;/*define o destaque do texto*/
+    padding: 1em 0 0.5em 0;/*define o espaçamento do texto*/
+}
+.swiper-slide img {/*define os estilos para as tags <img> da classe swiper-slide*/
+    width: 100%;/*faz com que a largura da imagem utilize 100% do espaço disponivel para ela*/
+}
+.swiper-button-prev,
+.swiper-button-next { /*define os estilos dos botoes*/
+    display: none;/*faz com que os botoẽs nao apareçam*/
+}
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+}
+
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 14px;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
